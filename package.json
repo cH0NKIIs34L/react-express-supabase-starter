@@ -1,0 +1,34 @@
+{
+  "name": "react-express-supabase-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "=== ORCHESTRATION ===": "",
+    "dev": "concurrently \"npm --prefix client run dev\" \"npm --prefix server run dev\"",
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run dev",
+    "=== SETUP ===": "",
+    "install:all": "npm install && npm --prefix client install && npm --prefix server install",
+    "=== CODE QUALITY ===": "",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,less,html,json,md,mdx,yaml,yml}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,css,scss,less,html,json,md,mdx,yaml,yml}\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^9.0.0",
+    "prettier": "^3.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlsud-submissions/react-express-supabase-starter.git"
+  },
+  "keywords": [],
+  "author": "dlsud-submissions",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dlsud-submissions/react-express-supabase-starter/issues"
+  },
+  "homepage": "https://github.com/dlsud-submissions/react-express-supabase-starter#readme"
+}
