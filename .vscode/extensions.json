@@ -8,14 +8,21 @@
 
     /* Language Support & Intellisense */
     "christian-kohler.path-intellisense",
-    "prisma.prisma",
+    "Supabase.vscode-supabase-extension",
     "mikestead.dotenv",
+    "ionutvmi.path-autocomplete",
 
     /* Icons & Themes */
     "PKief.material-icon-theme",
 
+    /* Containers */
+    "ms-azuretools.vscode-containers",
+    "ms-azuretools.vscode-docker",
+
     /* Git */
     "waderyan.gitblame",
+    "github.vscode-github-actions",
+    "eamodio.gitlens",
 
     /* Markdown */
     "shd101wyy.markdown-preview-enhanced",
@@ -23,6 +30,12 @@
 
     /* Testing */
     "vitest.explorer",
+
+    /* TypeScript */
+    "yoavbls.pretty-ts-errors",
+
+    /* Diagnostics */
+    "usernamehw.errorlens",
 
     /* CSS & Styling */
     "styled-components.vscode-styled-components",
