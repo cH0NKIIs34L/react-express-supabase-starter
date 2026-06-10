@@ -1,1 +1,1 @@
-# react-express-supabase-starter
+# react-express-supabase-ts-template

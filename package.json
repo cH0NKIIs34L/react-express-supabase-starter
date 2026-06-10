@@ -1,5 +1,5 @@
 {
-  "name": "react-express-supabase-starter",
+  "name": "react-express-supabase-ts-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dlsud-submissions/react-express-supabase-starter.git"
+    "url": "git+https://github.com/cH0NKIIs34L-submissions/react-express-supabase-ts-template.git"
   },
   "keywords": [],
-  "author": "dlsud-submissions",
+  "author": "cH0NKIIs34L-submissions",
   "license": "MIT",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/dlsud-submissions/react-express-supabase-starter/issues"
+    "url": "https://github.com/cH0NKIIs34L-submissions/react-express-supabase-ts-template/issues"
   },
-  "homepage": "https://github.com/dlsud-submissions/react-express-supabase-starter#readme"
+  "homepage": "https://github.com/cH0NKIIs34L-submissions/react-express-supabase-ts-template#readme"
 }
