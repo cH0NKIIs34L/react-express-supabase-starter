@@ -15,8 +15,8 @@ export default defineConfig([
     ignores: ['node_modules', 'dist', 'coverage'],
   },
   {
-    // Target all JavaScript files in the server directory
-    files: ['**/*.js'],
+    // Target all server source files, including TypeScript and JSX/TSX
+    files: ['**/*.{ts,tsx,js}'],
 
     // Configure the language and environment settings
     languageOptions: {
@@ -47,12 +47,6 @@ export default defineConfig([
 
       // Warn on console usage to encourage proper logging in production
       'no-console': 'warn',
-    },
-  },
-  {
-    files: ['src/db/seed.js'],
-    rules: {
-      'no-console': 'off',
     },
   },
 ]);
